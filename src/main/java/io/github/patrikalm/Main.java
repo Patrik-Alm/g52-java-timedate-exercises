@@ -10,9 +10,7 @@ public class Main {
 
         LocalDate date = LocalDate.now();
 
-        date = date.plusYears(10);
-
-        date = date.minusMonths(10);
+        date = date.plusYears(10).minusMonths(10);
 
         Month month = date.getMonth();
 
